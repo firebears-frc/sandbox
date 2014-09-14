@@ -12,8 +12,9 @@
 package org.firebears.sandbox;
 
 import org.firebears.sandbox.commands.*;
+
+import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import edu.wpi.first.wpilibj.*;
 
 
 /**
