@@ -42,5 +42,9 @@ public class Chassis extends Subsystem {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());
     }
+    
+    public void move(double forward, double turn) {
+        robotDrive.arcadeDrive(forward, turn);
+    }
 }
 

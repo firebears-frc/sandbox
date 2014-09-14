@@ -11,11 +11,9 @@
 
 package org.firebears.sandbox;
     
-import edu.wpi.first.wpilibj.*;
-import edu.wpi.first.wpilibj.can.*;
-
-import edu.wpi.first.wpilibj.livewindow.LiveWindow;
-import java.util.Vector;
+import edu.wpi.first.wpilibj.CANJaguar;
+import edu.wpi.first.wpilibj.RobotDrive;
+import edu.wpi.first.wpilibj.can.CANTimeoutException;
 
 /**
  * The RobotMap is a mapping from the ports sensors and actuators are wired into
